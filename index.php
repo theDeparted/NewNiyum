@@ -7,10 +7,12 @@
 		<script type="text/javascript" src="js/jquery-1.7.2.js"> </script>
 	</head>
 
-	<body>
-		<h1>New Niyum</h1>
-		<p>Work hard, Play harder!</p>
-		<div class="ga"></div>
+	<body>		
+		<h1>New Niyum</h1>		
+		<center>
+			<div class="ga"><p>Use the arrow keys to move around <br/> Space to Jump</p></div>		
+		</center>
+		<p class="subheading">Work hard, Play harder!</p>
 		<script type="text/javascript" src="js/NewNiyum.js"> </script>
 	</body>
 
