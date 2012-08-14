@@ -8,17 +8,41 @@
 	font-family:handWritten;
 	src: url('dandelion_in_the_spring.ttf')
 }
+@font-face
+{
+	font-family:bodyWritten;
+	src: url('where_stars_shine_the_brightest.ttf');
+}
 
 
 body{
-	font-family:;
+	font-family:sans-serif;
 	text-align:center;
 }
-p{
-	font-family:handWritten;
+p.subheading{
+/*	position:relative;
+	top:420px;
+*/	font-family:handWritten;
 	font-size:35px;
+	z-index:10;
 }
+p{
+	font-family:bodyWritten;
+	font-size:45px;
+	z-index:15;
+}
+
 h1{
 	font-family:sketch;
 	font-size:50px;
+	z-index:10;
+}
+.ga{
+	background-color: white;
+	border-style:solid;
+	border-width:4px;
+	border-color:black;
+	width:800px;
+	height:600px;		
+	z-index:100;
 }
