@@ -34,7 +34,5 @@ Parameters: Position (2 dim), Direction (2 dim), Speed (2 dim), Phone Call (Dist
 Arvind's Chopper will move like this:
 
 > Speed = Speed + Acceleration * dt,
-
 > Position = Position + Speed * dt + Acceleration * dt * dt,
-
 > Direction = 0.5 * ( 2 * Direction + Speed * dt + Acceleration * dt * dt )
