@@ -45,7 +45,7 @@
 				<ol>
 					<li> Keep moving with the flow </li>
 					<li> The black boxes kill you, yellows wont </li>
-					<li> Don't get caught by Dr. Urr Wind</li>
+					<li> Don't get caught by Dr. Arr Wind</li>
 					<li> Don't fall </li>
 					<li> Wobbly boxes will fall </li>
 					<li> Use power tiles for cool abilities 
