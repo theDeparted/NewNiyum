@@ -32,8 +32,8 @@
 				to achieve them for, not themselves, but us. Nothing worth having comes without sacrifice. 
 				There is always Hope. For those of us who have been burdened with too much pessimism, here 
 				is a tiny spark of hope.
-				Men and women in this nation, once decided to fight without weapons, and we ended up changing the map
-				of this world. Let us see what a set of highly trained individuals (viz. the IISER community)
+				Men and women in this nation, once decided to fight, and that too without weapons; we ended up 
+				changing the map of this world. Let us see what a set of highly trained individuals (viz. the IISER community)
 				can do.
 			</p>
 		</div>
@@ -59,16 +59,18 @@
 			</p>
 		</div>
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/>
+		This Part had intentionally been left empty, just so you too can enjoy the view from 710/H7!
+		<br/><br/>
 		<div class="backTransparency">
 			<p>About</p>
 			<p class="small">
 				Founded by Gagan Preet Singh, Atul Singh Arora and Arjit Kant Gupta, is an organization
-				that still believes:
+				that believes in more work, less talk. We follow 2 principles:
 				<ol>
-					<li> in hard-work for the greater good </li>
-					<li> in middle names! </li>
+					<li> Don't reveal everything. </li>
 				</ol>
-
 			</p>
 		</div>
 		<script type="text/javascript" src="js/NewNiyum.js"> </script>
