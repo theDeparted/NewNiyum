@@ -13,36 +13,103 @@
 	font-family:bodyWritten;
 	src: url('where_stars_shine_the_brightest.ttf');
 }
-
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4); 
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 15px;
+    height:15px;
+}
 
 body{
+	background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    background-size: auto, cover;
+
+	
 	font-family:sans-serif;
 	text-align:center;
 }
-p.subheading{
+* {
+	color:white;
+}
+ol,p.small{
 /*	position:relative;
 	top:420px;
-*/	font-family:handWritten;
-	font-size:35px;
-	z-index:10;
+*/	font-family:bodyWritten;
+	font-size:45px;
+	/*color:black;*/
+	/*text-shadow: 0px 0px 5px rgba(0,0,0,1);*/
+	z-index:10;	
+	text-align: justify; text-justify: newspaper
+}
+p.center{
+	text-align: center;
 }
 p{
-	font-family:bodyWritten;
-	font-size:55px;
+	font-family:handWritten;
+	font-size:45px;
 	z-index:15;
+	text-align: center;
+	text-shadow:0px 0px 20px black;
 }
-
-h1{
+.backTransparency{
+	background-color: rgba(0,22,30,0.5);
+}
+/*p.ingame{
+	color:white;
+	text-shadow: 0px 0px 15px #4080FF;
+}
+*/h1{
 	font-family:sketch;
-	font-size:50px;
+	font-size:55px;
+	font-weight:normal;
+	color:black;
+	text-shadow: 0px 0px 10px white;
 	z-index:10;
 }
 .ga{
-	background-color: white;
+	position:relative;
+	background-color: rgb(10,20,50);	
 	border-style:solid;
 	border-width:4px;
-	border-color:black;
+	border-color:black black;
 	width:800px;
 	height:600px;		
 	z-index:100;
+	
+	text-shadow: 0px 0px 15px #4080FF;	
+}
+.Status{
+	color:white;
+}
+.Brick{
+	position:absolute;
+	border-style:solid;
+	border-color:black black;
+	border-width:2px;
+	display:block;
+	background-color:yellow;
+	width:50px;
+	height:20px;
 }
