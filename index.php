@@ -7,7 +7,7 @@
 		<script type="text/javascript" src="js/jquery-1.7.2.js"> </script>
 	</head>
 
-	<body style="background-image: url(img/pattern.png), url(img/7.jpg);">		
+	<body style="background-image: url(img/pattern.png), url(img/100_9048.jpg);">		
 		<h1>New Niyum</h1>
 		<p class="small">Disclaimer: No human was harmed during the production of this game.
 			No offence intended; the purpose of this game is not to hurt somebody, it's supposed to be entertaining, 

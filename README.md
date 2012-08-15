@@ -2,7 +2,16 @@
 
 The Game that gives you the survival training in Arvind's Kingdom
 
----------
+-------------
+# Version 2.0
+-------------
+
+# Game Plan
+
+
+-------------
+# Version 1.0
+-------------
 
 # Game Plan
 
