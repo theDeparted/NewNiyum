@@ -8,13 +8,19 @@
 	</head>
 
 	<body style="background-image: url(img/pattern.png), url(img/100_9048.jpg);">		
+		<br/><br/><br/><br/>
 		<h1>New Niyum</h1>
+		<br/><br/><br/>
 		<p class="small">Disclaimer: No human was harmed during the production of this game.
 			No offence intended; the purpose of this game is not to hurt somebody, it's supposed to be entertaining, 
 			but sole entertainment is not the objective either.</p>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/>
+
 		<center>
 			<div class="ga">
-				<p class="Status">Use the arrow keys to move around <br/> Space to Jump</p>
+				<p class="Status">Enter to Start! </p>
+				<p class="Paused">PAUSED</p>
 
 			</div>		
 		
@@ -22,6 +28,8 @@
 			<img src="img/theDeparted.svg" width="400px"/>		
 			<p class="small center">Nothing worth having comes without sacrifice.</p>		
 		</center>		
+
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		<div class="backTransparency">
 			<p>Purpose</p>
 			<p class="small">
@@ -37,7 +45,7 @@
 				can do.
 			</p>
 		</div>
-		<br/><br/><br/><br/><br/>
+		<br/><br/><br/>
 		<div class="backTransparency">
 			<p>New Niyum</p>
 			<p class="small">
@@ -59,10 +67,9 @@
 			</p>
 		</div>
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-		<br/><br/><br/><br/>
-		This Part had intentionally been left empty, just so you too can enjoy the view from 710/H7!
-		<br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 		<div class="backTransparency">
 			<p>About</p>
 			<p class="small">

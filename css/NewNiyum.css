@@ -13,6 +13,12 @@
 	font-family:bodyWritten;
 	src: url('where_stars_shine_the_brightest.ttf');
 }
+@-webkit-keyframes glowOnOff
+{
+	from{text-shadow: 0px 0px 40px white;}
+	to{text-shadow: 0px 0px 40px transparent;}
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
@@ -73,6 +79,10 @@ p{
 	text-shadow:0px 0px 3px black;
 }
 .backTransparency{
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:1px;
+	padding-bottom:1px;
 	background-color: rgba(0,22,30,0.8);
 }
 /*p.ingame{
@@ -81,13 +91,21 @@ p{
 }
 */h1{
 	font-family:sketch;
-	font-size:55px;
+	font-size:150px;
 	font-weight:normal;
-	color:black;
-	text-shadow: 0px 0px 10px white;
+	color:white;
 	z-index:10;
+	text-shadow: 0px 0px 20px white;
 }
-.ga{
+/*h1:hover{
+		-webkit-animation-name: glowOnOff;
+	-webkit-animation-duration: 1s;	
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
+}
+*/.ga{
 	position:relative;
 	background-color: rgb(10,20,50);	
 	border-style:solid;
@@ -96,11 +114,14 @@ p{
 	width:800px;
 	height:600px;		
 	z-index:100;
-	
+	overflow:hidden;
 	text-shadow: 0px 0px 15px #4080FF;	
 }
 .Status{
 	color:white;
+}
+.Paused{
+	display:none;
 }
 .Brick{
 	position:absolute;
