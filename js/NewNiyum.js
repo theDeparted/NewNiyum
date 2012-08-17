@@ -6,6 +6,8 @@
 //==================================
 //----------GAME STATE------
 var STARTED=false, PAUSED=false;
+//----------COMMONT CONSTANTS
+var tDiv=40;
 //---------CHARACTER------
 //CONVENTION: 
 // Position of Character,
@@ -14,7 +16,7 @@ var STARTED=false, PAUSED=false;
 // footprint, the distance from x, which if in touch is considered to be in contact
 var footprint=100, x=footprint,y=0,frame_no=0,parity=1,power=[{'Partha':0,'Shiv':0}];
 //Animation Settings
-var frame_change_afterT=500,walk_x=20,jump_duration=500,grounded=0;
+var frame_change_afterT=5000,walk_x=20,jump_duration=500,grounded=0;
 //Animation Variables
 var frame_lastT=0;
 
@@ -158,7 +160,7 @@ function moveForward(deltaT){
 
 	frame_lastT=frame_lastT+deltaT;
 	
-	deltaT_=deltaT/1000;
+	deltaT_=deltaT/tDiv;
 	x=x+walk_x*deltaT_;
 
 	if(grounded)
@@ -181,7 +183,7 @@ function moveForward(deltaT){
 function abstractionLoop(deltaT){
 	//-TIME EVALUATION
 	//Time elapsed for accurate animation
-	deltaT_=deltaT/1000;
+	deltaT_=deltaT/tDiv;
 	X=X+(Vx*deltaT_);		//For moving the World
 	Y=Y+(Vy*deltaT_);
 	
@@ -269,6 +271,7 @@ function MainLoop(){
 			LastTime=NewTime;
 
 		abstractionLoop(NewTime-LastTime); //INVOKE THE CENTRAL UPDATE FUNCTION FOR ABSTRACTIONS
+		LastTime=NewTime;
 
 		//GRAPHICS UPDATE
 		UpdateBricks();
