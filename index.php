@@ -19,7 +19,7 @@
 
 		<center>
 			<div class="ga">
-				<p class="Status">Enter to Start! </p>
+				<p class="Status">Press Enter to Play! </p>
 				<p class="Paused">PAUSED</p>
 				<img class="Character0" src="img/character standing.png" />
 				<img class="Character1" src="img/character_run_1.png" />
