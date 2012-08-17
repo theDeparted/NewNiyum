@@ -21,7 +21,12 @@
 			<div class="ga">
 				<p class="Status">Enter to Start! </p>
 				<p class="Paused">PAUSED</p>
-
+				<img class="Character0" src="img/character standing.png" />
+				<img class="Character1" src="img/character_run_1.png" />
+				<img class="Character2" src="img/character_run_2.png" />
+				<img class="Character3" src="img/character_run_3.png" />
+				<img class="Character4" src="img/character_run_2.png" />
+				<img class="Character5" src="img/character_run_1.png" />
 			</div>		
 		
 			<p class="small center">Developed by</p>

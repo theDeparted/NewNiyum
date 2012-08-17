@@ -13,6 +13,20 @@
 	font-family:bodyWritten;
 	src: url('where_stars_shine_the_brightest.ttf');
 }
+@-webkit-keyframes FX_Wobble
+{
+	0%{-webkit-transform: rotateZ(-1deg);}
+	10%{-webkit-transform: rotateZ(1deg);}
+	20%{-webkit-transform: rotateZ(-1deg);}
+	10%{-webkit-transform: rotateZ(1deg);}
+	40%{-webkit-transform: rotateZ(-1deg);}
+	50%{-webkit-transform: rotateZ(1deg);}
+	60%{-webkit-transform: rotateZ(-1deg);}
+	70%{-webkit-transform: rotateZ(1deg);}
+	80%{-webkit-transform: rotateZ(-1deg);}
+	90%{-webkit-transform: rotateZ(1deg);}
+	100%{-webkit-transform: rotateZ(-1deg);}
+}
 @-webkit-keyframes glowOnOff
 {
 	from{text-shadow: 0px 0px 40px white;}
@@ -105,7 +119,18 @@ p{
 	-webkit-animation-direction: alternate;
 
 }
-*/.ga{
+*/
+.behind{
+	z-index:1;
+}
+.infront{
+	z-index:10;
+}
+.with{
+	z-index:5;
+}
+
+.ga{
 	position:relative;
 	background-color: rgb(10,20,50);	
 	border-style:solid;
@@ -132,4 +157,18 @@ p{
 	background-color:yellow;
 	width:50px;
 	height:20px;
+	/*-webkit-transform: rotateZ(10deg);*/
+}
+.Character0,.Character1,.Character2,.Character3,.Character4,.Character5{
+	position:absolute;
+	/*width:100px;*/
+	display:hidden;
+}
+.Wobble{
+	-webkit-animation-name: FX_Wobble;
+	-webkit-animation-duration: 1s;	
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
 }
