@@ -14,7 +14,7 @@ var STARTED=false, PAUSED=false;
 // footprint, the distance from x, which if in touch is considered to be in contact
 var footprint=100, x=footprint,y=0,frame_no=0,parity=1,power=[{'Partha':0,'Shiv':0}];
 //Animation Settings
-var frame_change_afterT=500,walk_x=20,jump_duration=500;
+var frame_change_afterT=500,walk_x=20,jump_duration=500,grounded=0;
 //Animation Variables
 var frame_lastT=0;
 
@@ -113,12 +113,17 @@ function evaluateProjections(){
 //-----------------DETECT COLLISIONS
 function collisionDetection(){
 	
+	grounded=0;
 	//First with the bricks
 	for(i=0;i<Bricks.length;i++)
 	{
 		if(x>(Bricks[i].x-footprint) && x<(Bricks[i].x + Blen - footprint) )
 			if(y>Bricks[i].y)
+			{
 				y=Bricks[i].y;
+				grounded=1;
+			}
+				
 	}
 }
 
@@ -134,6 +139,9 @@ function updateMessage(){
 }
 
 //--------------------MOVE FORWARD--------
+function jumpFrame(){
+	frame_no=5;
+}
 function nextFrame(){
 	if(frame_no>0 && frame_no<5)
 	{
@@ -153,11 +161,18 @@ function moveForward(deltaT){
 	deltaT_=deltaT/1000;
 	x=x+walk_x*deltaT_;
 
-	//alert(frame_lastT);
-	if(frame_lastT>frame_change_afterT || throttle==1) //Throttle is for quick response!
+	if(grounded)
 	{
-		nextFrame();
-		frame_lastT=frame_lastT%frame_change_afterT; //remainder function
+		//alert(frame_lastT);
+		if(frame_lastT>frame_change_afterT || throttle==1) //Throttle is for quick response!
+		{
+			nextFrame();
+			frame_lastT=frame_lastT%frame_change_afterT; //remainder function
+		}
+	}
+	else
+	{
+		jumpFrame();
 	}
 	//alert(frame_no);
 }
